@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Basics</title>
+        <style>
+            .container{
+                background-color: black;
+                color: white;
+                display: grid;
+                height: 90vh;
+                grid-template-rows: 1fr 1fr 1fr 1fr ;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 10px;
+                gap: 20px
+            }
+            .box {
+                background-color: skyblue;
+                border-radius: 5px;
+            }
+            .box.a{
+                grid-column: 1/4;
+            }
+            .box.b{
+                grid-row: 2/4;
+            }
+            .box.e{
+                grid-column: 2/4;
+            }
+            .box.f{
+                grid-column: 1/4;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box a">a</div>
+            <div class="box b">b</div>
+            <div class="box c">c</div>
+            <div class="box d">d</div>
+            <div class="box e">e</div>
+            <div class="box f">f</div>
+        </div>
+    </body>
+</html>
