@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Grids</title>
+        <style>
+            body{
+                background-color: pink;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 10px;
+                margin-top: 40px;
+            }
+            .card{
+                background-color: white;
+                border-radius: 20px;
+                box-shadow: 5px 5px 20px darkred;
+            }
+            .card.a,.f{
+                grid-column: span 2;
+            }
+            .card-container{
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+                height: 95%;
+            }
+            .image{
+                background-color: brown;
+                height: 200px;
+            }
+            button{
+                background-color: grey;
+                border-radius: 5px;
+                color: white;
+                border-style: none;
+                margin-top: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card a">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card b">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card c">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card d">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card e">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card f">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card g">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+            <div class="card h">
+                <div class="card-container">
+                    <div class="image"></div>
+                    <h3>Card Title</h3>
+                    <p>This is a short description about the card. 
+                        It explains what the card is about in a few sentences.
+                    </p>
+                    <button>Action</button>
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
